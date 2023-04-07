@@ -20,7 +20,3 @@ if __name__ == "__main__":
 
     except KeyboardInterrupt:
         pass
-
-
-# 파일이 없을때 생성 가능해야함.
-# 파일이 비어있음 현재 에러 표시...
