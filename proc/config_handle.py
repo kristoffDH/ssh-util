@@ -29,9 +29,8 @@ def add(configs):
 
     result = input(Fore.GREEN + "save? (y/n) " + Style.RESET_ALL)
 
-    configs.append(config)
-
     if result in ["y", "Y"]:
+        configs.append(config)
         file_util.write_file(configs)
 
 
